@@ -7,6 +7,6 @@ git add *
 git commit -m "added task"
 git push https://github.com/kumarvirendra186/assignment_repo.git master
 else
-change=1
+change=1(no)
 echo "no change"
 fi
