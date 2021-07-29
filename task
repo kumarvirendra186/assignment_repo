@@ -2,6 +2,11 @@
 git init
 git clone https://github.com/kumarvirendra186/assignment_repo.git
 git status
+if change=0
 git add *
 git commit -m "added task"
 git push https://github.com/kumarvirendra186/assignment_repo.git master
+else
+change=1
+echo "no change"
+fi
